@@ -3,3 +3,4 @@ This script takes a path of a local directory, indexes all markdown files, and d
 - Does not import directory recursively
 - Does not ignore "stop-words"
 - Does not employ language-specific stemming
+- Not concurrent (Slow for very large files)
